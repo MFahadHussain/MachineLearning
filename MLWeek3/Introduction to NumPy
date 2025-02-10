@@ -1,0 +1,57 @@
+Introduction to NumPy 🚀
+NumPy (Numerical Python) is a powerful library for numerical computing in Python. It provides multi-dimensional arrays, mathematical functions, and efficient operations for scientific computing.
+
+🔹 Why Use NumPy?
+✔️ Faster than Python lists 🚀
+✔️ Supports multi-dimensional arrays 📊
+✔️ Built-in mathematical operations ➗
+✔️ Efficient memory usage 💾
+✔️ Works with Pandas, SciPy, and Matplotlib 🔗
+
+📌 Installation
+Install NumPy using pip:
+
+pip install numpy
+
+
+📚 Basic Usage
+1️⃣ Creating Arrays
+
+
+import numpy as np
+
+# 1D Array
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+
+# 2D Array
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+print(matrix)
+
+
+2️⃣ Array Operations
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr + 2)  # Add 2 to each element
+print(arr * 3)  # Multiply each element by 3
+print(np.sqrt(arr))  # Square root
+
+
+3️⃣ Special Arrays
+
+np.zeros((3, 3))  # 3x3 array of zeros
+np.ones((2, 2))  # 2x2 array of ones
+np.eye(3)  # 3x3 Identity matrix
+np.random.rand(4, 4)  # Random values
+
+
+4️⃣ Array Statistics
+
+print(np.mean(arr))  # Mean
+print(np.sum(arr))   # Sum
+print(np.std(arr))   # Standard deviation
+
+🎯 Conclusion
+NumPy is a foundational library for data science, machine learning, and scientific computing. Mastering NumPy will help you work efficiently with numerical data in Python.
+
